@@ -5,3 +5,7 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+a.active {
+    @apply text-green-400;
+}
