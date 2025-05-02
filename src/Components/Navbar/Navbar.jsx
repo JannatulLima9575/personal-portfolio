@@ -23,9 +23,9 @@ const Navbar = () => {
         {/* Navigation Links */}
         <nav className={`flex-col md:flex-row md:flex md:items-center md:space-x-6 text-sm tracking-wide text-gray-300 absolute md:static bg-[#111] w-full md:w-auto left-0 top-16 md:top-0 px-8 md:px-0 ${isOpen ? 'flex' : 'hidden'}`}>
           <NavLink to="/" className="py-2 md:py-0">Home</NavLink>
-          <NavLink to="/case-studies" className="py-2 md:py-0">About</NavLink>
-          <NavLink to="/testimonials" className="py-2 md:py-0">Project</NavLink>
-          <NavLink to="/recent-work" className="py-2 md:py-0">Skills</NavLink>
+          <NavLink to="/about" className="py-2 md:py-0">About</NavLink>
+          <NavLink to="/project" className="py-2 md:py-0">Project</NavLink>
+          <NavLink to="/skills" className="py-2 md:py-0">Skills</NavLink>
           <NavLink to="/contact" className="py-2 md:py-0">Contact</NavLink>
         </nav>
 
