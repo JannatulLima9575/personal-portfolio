@@ -1,12 +1,45 @@
-# React + Vite
+# 🌟 Lima's Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! I’m **Jannatul Lima**, a passionate MERN-Stack Web Developer and CSE student from Bangladesh. This website showcases my skills, projects, and the journey I’m taking in the world of technology.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [limaportfolio.netlify.app](https://limaportfolio.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👋 Introduction & About Me Section  
+- 🛠️ Tech Stack & Skills Showcase  
+- 💼 Projects with Live Links & GitHub Repos  
+- 📨 Contact Form with Email Integration  
+- 📱 Fully Responsive Design  
+- 🎨 Clean, Modern, and Minimal UI
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology       | Purpose                        |
+|------------------|---------------------------------|
+| HTML5            | Page Structure                  |
+| CSS3             | Styling                         |
+| JavaScript       | Interactive Functionality        |
+| Bootstrap/Tailwind| Responsive Design (based on your stack) |
+| Netlify          | Deployment Platform             |
+| Git & GitHub     | Version Control                 |
+
+---
+
+## 📸 Screenshots
+
+> _You can insert 1–2 screenshots here later if needed_
+
+---
+
+## 🚀 Getting Started (For Developers)
+
+If you want to run the project locally:
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/limaportfolio.git
