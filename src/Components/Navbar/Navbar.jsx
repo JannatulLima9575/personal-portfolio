@@ -38,6 +38,9 @@ const Navbar = () => {
           <NavLink to="/skills" className="py-2 md:py-0">
             Skills
           </NavLink>
+          <NavLink to="/education" className="py-2 md:py-0">
+            Education
+          </NavLink>
           <NavLink to="/contact" className="py-2 md:py-0">
             Contact
           </NavLink>

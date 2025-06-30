@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/postcss": "^4.1.5",
     "@tailwindcss/vite": "^4.1.5",
     "autoprefixer": "^10.4.21",
