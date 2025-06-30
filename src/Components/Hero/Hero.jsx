@@ -51,6 +51,26 @@ const Hero = () => {
       name: "C++",
       src: "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
     },
+    {
+      name: "HTML2",
+      src: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+    },
+    {
+      name: "CSS2",
+      src: "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000",
+    },
+    {
+      name: "JavaScript2",
+      src: "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000",
+    },
+    {
+      name: "React2",
+      src: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000",
+    },
+    {
+      name: "Tailwind2",
+      src: "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
+    },
   ];
 
   return (
@@ -74,7 +94,11 @@ const Hero = () => {
                 className="inline-flex items-center justify-center space-x-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-3 py-2 sm:px-4 sm:py-2.5 md:px-6 md:py-3 rounded shadow-lg shadow-green-500/40 transition text-sm sm:text-base"
               >
                 <span>Contact Me</span>
-                <img src={callIcon} alt="Contact Icon" className="w-4 h-4 sm:w-5 sm:h-5" />
+                <img
+                  src={callIcon}
+                  alt="Contact Icon"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                />
               </NavLink>
 
               <a
@@ -83,7 +107,11 @@ const Hero = () => {
                 className="inline-flex items-center justify-center space-x-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-3 py-2 sm:px-4 sm:py-2.5 md:px-6 md:py-3 rounded shadow-lg shadow-green-500/40 transition text-sm sm:text-base"
               >
                 <span>Download CV</span>
-                <img src={downloadIcon} alt="Download Icon" className="w-5 h-5 sm:w-6 sm:h-6" />
+                <img
+                  src={downloadIcon}
+                  alt="Download Icon"
+                  className="w-5 h-5 sm:w-6 sm:h-6"
+                />
               </a>
             </div>
           </div>
@@ -102,7 +130,9 @@ const Hero = () => {
       {/* Skills Marquee */}
       <section className="bg-black text-white py-8 md:py-10">
         <div className="w-full mx-auto">
-          <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-center">My Skills</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-center">
+            My Skills
+          </h2>
           <Marquee pauseOnHover={true} speed={50} gradient={false}>
             {skills.map((skill, index) => (
               <div key={index} className="mx-4 sm:mx-6 text-center">
@@ -111,7 +141,9 @@ const Hero = () => {
                   alt={skill.name}
                   className="h-12 w-12 sm:h-16 sm:w-16 object-contain mx-auto"
                 />
-                <p className="text-white mt-1 sm:mt-2 text-xs sm:text-sm">{skill.name}</p>
+                <p className="text-white mt-1 sm:mt-2 text-xs sm:text-sm">
+                  {skill.name}
+                </p>
               </div>
             ))}
           </Marquee>

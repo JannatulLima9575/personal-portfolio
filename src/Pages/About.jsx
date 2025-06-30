@@ -23,23 +23,22 @@ const About = () => {
           <div className="text-gray-300 space-y-4 leading-relaxed">
             <p>
               Hello! I'm <strong>Jannatul Lima</strong>, a passionate Frontend
-              Developer specializing in crafting responsive and user-friendly
-              web interfaces using <strong>React</strong> and{" "}
+              Developer specializing in building responsive and user-friendly
+              web applications using <strong>React</strong> and{" "}
               <strong>Tailwind CSS</strong>.
             </p>
             <p>
-              My journey into web development began with a curiosity for how
-              websites function, which soon evolved into a deep-seated passion
-              for building seamless user experiences.
+              Currently, I'm exploring the <strong>MERN Stack</strong> to
+              enhance my skills in full-stack web development and build more
+              dynamic, database-driven applications.
             </p>
             <p>
-              Beyond coding, I have a keen eye for design and enjoy
-              collaborating with designers to bring mockups to life.
+              I love turning ideas into real-world projects and always strive to
+              write clean, efficient, and maintainable code.
             </p>
             <p>
-              I'm currently open to exciting opportunities where I can
-              contribute, learn, and grow. Let's connect and create something
-              amazing together!
+              I'm open to exciting opportunities where I can contribute, learn,
+              and grow as a developer.
             </p>
           </div>
         </div>

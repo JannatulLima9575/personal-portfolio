@@ -1,39 +1,42 @@
-import {
-    createBrowserRouter,
-  } from "react-router";
+import { createBrowserRouter } from "react-router";
 
-  import Layouts from './../Layouts/Layouts';
+import Layouts from './../Layouts/Layouts';
 import Home from "../Pages/Home";
 import About from './../Pages/About';
 import Contact from './../Pages/Contact';
 import Project from './../Pages/Project';
 import Skills from './../Pages/Skills';
+import ProjectDetails from './../Pages/ProjectDetails';  // এইটা import করতে ভুলোনা
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Layouts,
     children: [
-        {
-            path: "/",
-            Component: Home,
-        },
-        {
-            path: "/about",
-            Component: About,
-        },
-        {
-            path: "/contact",
-            Component: Contact,
-        },
-        {
-            path: "/project",
-            Component: Project,
-        },
-        {
-            path: "/skills",
-            Component: Skills,
-        },
-    ]
-},
+      {
+        path: "/",
+        Component: Home,
+      },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/contact",
+        Component: Contact,
+      },
+      {
+        path: "/project",
+        Component: Project,
+      },
+      {
+        path: "/projectdetails/:id",
+        Component: ProjectDetails,
+      },
+      {
+        path: "/skills",
+        Component: Skills,
+      },
+    ],
+  },
 ]);
