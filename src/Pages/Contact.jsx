@@ -2,22 +2,30 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
   const formRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_t4jo61n", "__ejs-test-mail-service__", formRef.current, "OstHFNuCO9J-deGKc")
-      .then((res) => {
-        console.log("SUCCESS:", res);
-      })
-      .catch((err) => {
-        console.error("ERROR:", err.text);
-      });
+      .sendForm(
+        "service_t4jo61n",     // ✅ তোমার EmailJS Service ID
+        "template_abc123",     // ✅ তোমার Template ID
+        formRef.current,
+        "OstHFNuCO9J-deGKc"    
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS:", result.text);
+          alert("Message sent successfully! ✅");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Failed to send message. ❌ Try again.");
+        }
+      );
 
-    e.target.reset();
+    e.target.reset(); // Reset form
   };
 
   return (
@@ -26,7 +34,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold text-center mb-8">📬 Contact Me</h2>
 
         <form
-          ref={form}
+          ref={formRef}
           onSubmit={sendEmail}
           className="bg-gray-800 p-8 rounded-lg shadow-lg space-y-6"
         >
@@ -38,9 +46,9 @@ const Contact = () => {
               type="text"
               name="name"
               id="name"
-              className="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="Enter your name"
               required
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white"
+              placeholder="Enter your name"
             />
           </div>
 
@@ -52,9 +60,9 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
-              className="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="Enter your email"
               required
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white"
+              placeholder="Enter your email"
             />
           </div>
 
@@ -66,15 +74,15 @@ const Contact = () => {
               name="message"
               id="message"
               rows="5"
-              className="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-500"
-              placeholder="Type your message here..."
               required
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white"
+              placeholder="Type your message here..."
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded transition duration-300"
+            className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded"
           >
             Send Message
           </button>

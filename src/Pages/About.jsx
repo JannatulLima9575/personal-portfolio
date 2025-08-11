@@ -22,23 +22,34 @@ const About = () => {
 
           <div className="text-gray-300 space-y-4 leading-relaxed">
             <p>
-              Hello! I'm <strong>Jannatul Lima</strong>, a passionate Frontend
-              Developer specializing in building responsive and user-friendly
-              web applications using <strong>React</strong> and{" "}
-              <strong>Tailwind CSS</strong>.
+              Hello! I'm <strong>Jannatul Lima</strong>, a passionate{" "}
+              <strong>Frontend Developer</strong> and Computer Science student.
+              My programming journey began with curiosity about how websites
+              work, and over time, it has turned into a deep passion for
+              creating interactive, responsive, and visually appealing web
+              applications.
             </p>
             <p>
-              Currently, I'm exploring the <strong>MERN Stack</strong> to
-              enhance my skills in full-stack web development and build more
-              dynamic, database-driven applications.
+              I specialize in <strong>React</strong> and{" "}
+              <strong>Tailwind CSS</strong>, and I'm currently exploring the{" "}
+              <strong>MERN Stack</strong> to expand my expertise into full-stack
+              development. I enjoy building real-world projects, solving
+              problems creatively, and writing clean, efficient code.
             </p>
             <p>
-              I love turning ideas into real-world projects and always strive to
-              write clean, efficient, and maintainable code.
+              The type of work I truly enjoy is crafting user-friendly designs,
+              working on collaborative projects, and continuously learning new
+              technologies to stay ahead in the tech industry.
             </p>
             <p>
-              I'm open to exciting opportunities where I can contribute, learn,
-              and grow as a developer.
+              Outside of programming, I enjoy photography, painting, and
+              exploring new places. These hobbies keep me creative, refreshed,
+              and inspired in my development work.
+            </p>
+            <p>
+              As a person, I’m curious, dedicated, and love taking on
+              challenges. I believe in continuous learning and always strive to
+              grow both personally and professionally.
             </p>
           </div>
         </div>

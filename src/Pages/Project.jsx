@@ -21,6 +21,21 @@ const projects = [
   },
   {
     id: 2,
+    title: "🥗 FoodBridge - Local Food Waste Reduction Platform",
+    description:
+      "A web platform that connects restaurants with people in need to reduce local food waste through real-time donation and pickup.",
+    language: "React, HTML5, Tailwind CSS, Node.js, Express, MongoDB, Firebase",
+    imageUrl: "https://i.ibb.co.com/cfZZ5j3/image.png",
+    liveUrl: "https://foodbridge-d530a.web.app/",
+    githubUrl: "https://github.com/JannatulLima9575/FoodBridge-client-side",
+    features: [
+      "Responsive and clean UI",
+      "Employer can post job listings",
+      "Candidates can explore jobs easily",
+    ],
+  },
+  {
+    id: 3,
     title: "💼 HireSpark - Freelance Task Marketplace",
     description:
       "HireSpark is a modern job posting and hiring platform that connects employers with potential candidates efficiently. It provides a smooth user experience for posting jobs, ensuring a seamless hiring process.",
@@ -35,7 +50,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "📘 UpStudy – A Knowledge Sharing Platform",
     description:
       "EduVerse is a knowledge-sharing platform built for students to share articles, ideas, and insights on various topics. Inspired by platforms like Dev.to, it allows users to write, edit, and engage in discussions through comments.",
@@ -50,7 +65,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "CAREER-CODE: A JOB PORTAL SYSTEM",
     description:
       "A comprehensive job portal platform designed to enable seamless interaction between job seekers and employers. The system provides full CRUD operations for managing job postings, user authentication, and streamlined job application processes.",

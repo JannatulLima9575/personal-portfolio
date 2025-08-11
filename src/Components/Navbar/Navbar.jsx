@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { GoMail } from "react-icons/go";
 import { HiMenu, HiX } from "react-icons/hi";
 import { NavLink } from "react-router";
@@ -46,7 +46,7 @@ const Navbar = () => {
           </NavLink>
         </nav>
 
-        {/* Social Icons */}
+        {/* Social Icons + Contact */}
         <div
           className={`md:flex-row md:flex md:items-center md:space-x-4 text-gray-400 text-lg absolute md:static bg-[#111] w-full md:w-auto left-0 top-60 md:top-0 gap-3 px-8 md:px-0 ${
             isOpen ? "flex" : "hidden"
@@ -60,7 +60,7 @@ const Navbar = () => {
             <FaGithub />
           </a>
 
-          {/* gmail */}
+          {/* Gmail */}
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=limajannat1675@gmail.com"
             target="_blank"
@@ -71,12 +71,24 @@ const Navbar = () => {
             <GoMail />
           </a>
 
+          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/jannatul-lima-985a25363"
             aria-label="LinkedIn"
             className="py-2 md:py-0"
           >
             <FaLinkedin />
+          </a>
+
+          {/* WhatsApp Number (optional) */}
+          <a
+            href="https://wa.me/8801301559575"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="py-2 md:py-0"
+          >
+            <FaWhatsapp />
           </a>
         </div>
       </header>

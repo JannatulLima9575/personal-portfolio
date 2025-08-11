@@ -24,7 +24,7 @@ const achievements = [
     year: "December to July 2024 - 2025",
     description:
       "Successfully completed MERN stack course from Programming Hero covering MongoDB, Express, React, Node, Auth, Deployment.",
-    certificateUrl: "https://your-mern-certificate-link.com", // Replace with actual link
+    certificateUrl: "https://your-mern-certificate-link.com",
   },
   {
     title: "Completed Python Programming Course",
