@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef();
@@ -10,7 +10,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_t4jo61n",     // ✅ তোমার EmailJS Service ID
-        "template_abc123",     // ✅ তোমার Template ID
+        "template_26euwqo",     // ✅ তোমার Template ID
         formRef.current,
         "OstHFNuCO9J-deGKc"    
       )
